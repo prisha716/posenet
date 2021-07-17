@@ -7,9 +7,9 @@ function preload() {
 }
  function setup() {
      video=createCapture(VIDEO);
-     video.size(450,450);
+     video.size(500,450);
      video.hide();
-     canvas=createCanvas(500,500);
+     canvas=createCanvas(500,450);
      canvas.center();
      poseNet=ml5.poseNet(video,modelLoaded);
      poseNet.on('pose',gotPoses);
