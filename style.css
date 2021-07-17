@@ -1,0 +1,31 @@
+
+ body {
+     text-align: center;
+     font-family: 'Zen Tokyo Zoo', cursive;
+ }
+ .note {
+    font-size: 18px;
+    color: rgb(240, 21, 94);
+}
+.copy_right_footer {
+  position:fixed ;
+  color: darkturquoise;
+  bottom: 0;
+  width: 100%;
+  background-color: plum;
+  line-height: 3;
+  text-align: center;
+  }
+  canvas {
+  border: 5px 5px solid peachpuff;
+  border-radius:  20px; 
+  box-shadow: 5px 5px 5px lightcyan;
+  margin-top: 150px;
+  }
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px lightcyan;
+  }
